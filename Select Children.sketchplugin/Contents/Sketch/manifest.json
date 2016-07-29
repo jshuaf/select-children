@@ -1,24 +1,23 @@
 {
-  "author" : "Joshua Fang",
-  "commands" : [
+  "name": "Select Children",
+  "description": "Select all children layers with a single command!",
+  "author": "Joshua Fang",
+  "homepage": "http://github.com/jshuaf/select-children",
+  "version": 1.0,
+  "identifier": "com.joshuafang.select-children",
+  "updateURL": "http://github.com/jshuaf/select-children",
+  "compatibleVersion": 3.9,
+  "bundleVersion": 1,
+  "commands": [
     {
-      "script" : "script.cocoascript",
-      "name" : "Select Children",
-      "handlers" : {
-        "run" : "onRun"
-      },
-      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+      "name": "Select Children",
+      "identifier": "select",
+      "shortcut": "cmd shift a",
+      "script": "script.cocoascript"
     }
   ],
-  "menu" : {
-    "items" : [
-      "com.bohemiancoding.sketch.runscriptidentifier"
-    ],
-    "title" : "Select Children"
-  },
-  "identifier" : "com.example.sketch.6946b1ff-7a63-4c2f-90f2-17ca0c78a17e",
-  "version" : "1.0",
-  "description" : "Select all children layers with a single command!",
-  "authorEmail" : "joshuacfang@gmail.com",
-  "name" : "Select Children"
+  "menu": {
+    "items": ["select"],
+    "isRoot": true
+  }
 }
