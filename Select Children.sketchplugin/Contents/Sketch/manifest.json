@@ -1,0 +1,24 @@
+{
+  "author" : "Joshua Fang",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Select Children",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "Select Children"
+  },
+  "identifier" : "com.example.sketch.6946b1ff-7a63-4c2f-90f2-17ca0c78a17e",
+  "version" : "1.0",
+  "description" : "Select all children layers with a single command!",
+  "authorEmail" : "joshuacfang@gmail.com",
+  "name" : "Select Children"
+}
