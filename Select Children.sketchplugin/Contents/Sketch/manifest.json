@@ -5,17 +5,14 @@
   "homepage": "http://github.com/jshuaf/select-children",
   "version": 1.0,
   "identifier": "com.joshuafang.select-children",
-  "updateURL": "http://github.com/jshuaf/select-children",
   "compatibleVersion": 3.9,
   "bundleVersion": 1,
-  "commands": [
-    {
+  "commands": [{
       "name": "Select Children",
       "identifier": "select",
-      "shortcut": "cmd shift a",
+      "shortcut": "cmd alt a",
       "script": "script.cocoascript"
-    }
-  ],
+  }],
   "menu": {
     "items": ["select"],
     "isRoot": true
